@@ -1,3 +1,31 @@
-# RISC-Processor
+#ISA for RISC Processor
 
-An attempt to improve upon the RISCuva1 by S. de Pablo, J.A. Cebrián, L.C. Herrero and A.B. Rey
+## Gen Description
+
+32-bit Processor with integer op support
+Float Pt not supported
+
+Load-Store Architecture
+38-bit instr len
+
+32-bit len for mem addr in ld, st
+06-bit len for instr == 2**6 == 64 instructions supported
+
+##Instructions
+
+### Arithmetic Ops:
+
+1. add
+
+ sub is implemented via macro
+
+2. negative
+3. mul
+4. div
+
+### Memory Access
+
+1. ld
+2. st
+
+### NOP
