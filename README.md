@@ -27,10 +27,10 @@ Load-Store Architecture
 1. ld
 2. st
 
-### NOP
+#### NOP
 
 #### Control transfer instruction
-1. JCC
+1. JCC (multiple types JZ(or JE), JNZ(or JNE), JGE, JG, JLE, JL)
 2. JMP
 	
 	no call instruction
@@ -38,3 +38,15 @@ Load-Store Architecture
 #### Stack Ops
 1. push
 2. pop
+
+#### Boolean Ops
+1. and
+2. or
+3. not
+4. xor
+
+#### Shift Ops
+1. shl
+2. shr
+
+Total Op Count: 22
