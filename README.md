@@ -18,13 +18,11 @@ Load-Store Architecture
 1. add
 
  sub is implemented via macro
-
 2. negative
 3. mul
 4. div
 
 ### Memory Access
-
 1. ld
 2. st
 
