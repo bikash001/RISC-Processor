@@ -1,0 +1,14 @@
+// How to run these in iverilog
+
+//softwares needed
+//sudo apt-get install iverilog
+//sudo apt-get install gtkwave
+
+//running code
+//iverilog -o gen.vpp halfadder.v halftest.v
+//vvp gen.vpp
+
+//for viewing waveforms
+//gtkwave test.vcd 
+
+
